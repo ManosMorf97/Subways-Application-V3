@@ -1,6 +1,6 @@
-# Subway-Application-V2
+# Subway-Application-V3
 
-This project is an extension of [Subway-Application](https://github.com/ManosMorf97/Subways-Application).
+This project is an extension of [Subway-Application](https://github.com/ManosMorf97/Subways-Application-V2).
 
 ## Demo
 
