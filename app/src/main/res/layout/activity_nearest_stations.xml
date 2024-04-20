@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150847"
+    tools:context=".NearestStationsActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="The 3 nearest stations are"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/messageup"
+        app:layout_constraintEnd_toEndOf="@id/messageright"
+        app:layout_constraintStart_toStartOf="@id/messageleft"
+        app:layout_constraintBottom_toTopOf="@+id/messagedown"
+        />
+
+    <ListView
+        android:id="@+id/stations"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@color/teal_700"
+        app:layout_constraintBottom_toTopOf="@id/stationsdown"
+        app:layout_constraintEnd_toEndOf="@id/stationsright"
+        app:layout_constraintStart_toStartOf="@id/stationsleft"
+        app:layout_constraintTop_toBottomOf="@id/stationsup" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/messageleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/messageright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.93" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/messageup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/messagedown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/stationsleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.17" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/stationsright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.83" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/stationsdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/stationsup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.40" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

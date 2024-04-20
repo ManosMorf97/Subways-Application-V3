@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Athens Subways</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_bus_stations">Select Subway</string>
+    <string name="title_activity_station_buses">Select Station</string>
+    <string name="title_activity_route_ativity">Where to go</string>
+    <string name="title_activity_nearest_station">Nearest Stations</string>
+    <string name="title_activity_user_route">How to Go</string>
+    <string name="title_activity_show_stations">Stations</string>
+    <string name="title_activity_show_buses">Subways</string>
+</resources>

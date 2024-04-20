@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150847"
+    android:onClick="closeKeyboard"
+    tools:ignore="OnClick"
+    tools:context=".StationBusesActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Choose a station from the list or type the name of it"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/messageright"
+        app:layout_constraintStart_toStartOf="@id/messageleft"
+        app:layout_constraintBottom_toTopOf="@id/messagedown"
+        app:layout_constraintTop_toBottomOf="@id/messageup" />
+
+    <ListView
+        android:id="@+id/stations"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="@id/inforight"
+        app:layout_constraintStart_toStartOf="@id/infoleft"
+        app:layout_constraintBottom_toTopOf="@id/infodown"
+        app:layout_constraintTop_toBottomOf="@id/infoup"/>
+
+    <EditText
+        android:id="@+id/station_name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:textSize="12sp"
+        android:inputType="textPersonName"
+        android:hint="selected station"
+        app:layout_constraintEnd_toEndOf="@id/inputright"
+        app:layout_constraintStart_toStartOf="@id/inputleft"
+        app:layout_constraintBottom_toTopOf="@id/inputdown"
+        app:layout_constraintTop_toBottomOf="@id/inputup" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#ffa930"
+        android:text="Its Subways"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/submitright"
+        app:layout_constraintStart_toStartOf="@id/submitleft"
+        app:layout_constraintBottom_toTopOf="@id/submitdown"
+        app:layout_constraintTop_toBottomOf="@id/submitup"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/messageleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/messageright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.93" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/messageup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/messagedown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/infoleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/inforight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/infodown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/infoup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/inputup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/inputdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.37" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/inputleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.60" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/inputright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/submitleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.60" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/submitright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.87" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/submitdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.70" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/submitup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.61" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

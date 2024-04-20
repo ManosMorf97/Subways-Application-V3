@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150847"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Subway_Application.AppBarOverlay"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <Button
+        android:id="@+id/see_station_buses"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#ffa930"
+        android:text="Station's Subways"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@id/guidelinesleft2"
+        app:layout_constraintEnd_toEndOf="@id/guidelinesright2"
+        app:layout_constraintBottom_toTopOf="@id/guidelinesbottom1"
+        app:layout_constraintTop_toBottomOf="@id/guidelinestop1"/>
+
+    <Button
+        android:id="@+id/see_bus_stations"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="12sp"
+        android:backgroundTint="#ffa930"
+        android:text="Subway's Stations"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/guidelinesleft1"
+        app:layout_constraintEnd_toEndOf="@id/guidelinesright1"
+        app:layout_constraintBottom_toTopOf="@id/guidelinesbottom1"
+        app:layout_constraintTop_toBottomOf="@id/guidelinestop1" />
+
+    <Button
+        android:id="@+id/see_nearest_stations"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#ffa930"
+        android:textSize="12sp"
+        android:text="Nearest Stations"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/guidelinesbottom2"
+        app:layout_constraintEnd_toEndOf="@id/guidelinesright1"
+        app:layout_constraintStart_toStartOf="@id/guidelinesleft1"
+        app:layout_constraintTop_toBottomOf="@id/guidelinestop2" />
+
+    <Button
+        android:id="@+id/make_route"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#ffa930"
+        android:text="How to go"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinesleft2"
+        app:layout_constraintEnd_toEndOf="@id/guidelinesright2"
+        app:layout_constraintBottom_toTopOf="@id/guidelinesbottom2"
+        app:layout_constraintTop_toBottomOf="@id/guidelinestop2"
+        android:textColor="@color/black" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinesleft2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinesright2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinestop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinesbottom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinesleft1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinesright1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinestop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.52" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinesbottom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.62" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
