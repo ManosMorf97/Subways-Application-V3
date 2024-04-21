@@ -17,7 +17,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -26,6 +26,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     namespace 'com.example.subway_application'
+
 
 }
 repositories { mavenCentral() }
