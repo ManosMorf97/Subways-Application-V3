@@ -18,3 +18,20 @@ The user can do four things:
 #### Extras
 * Better User Experience.
 * Suitable for all mobile phones.
+
+#### Snippets
+
+##### Main
+<img src="snippets/A1.png" alt="drawing" width="200"/>
+
+##### Station's Info
+<img src="snippets/A2.png" alt="drawing" width="200"/>
+<img src="snippets/A3.png" alt="drawing" width="200"/>
+
+##### Subway's Info
+<img src="snippets/A4.png" alt="drawing" width="200"/>
+<img src="snippets/A5.png" alt="drawing" width="200"/>
+
+##### How to go
+<img src="snippets/A6.png" alt="drawing" width="200"/>
+<img src="snippets/A7.png" alt="drawing" width="200"/>
