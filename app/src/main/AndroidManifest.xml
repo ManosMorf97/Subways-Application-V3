@@ -17,38 +17,46 @@
         <activity
             android:name="com.example.subway_application.ShowBusesActivity"
             android:label="@string/title_activity_show_buses"
+            android:screenOrientation="portrait"
             android:parentActivityName="com.example.subway_application.StationBusesActivity"/>
         <activity
             android:name="com.example.subway_application.ShowStationsActivity"
             android:label="@string/title_activity_show_stations"
+            android:screenOrientation="portrait"
             android:parentActivityName="com.example.subway_application.BusStationsActivity"/>
         <activity
             android:name="com.example.subway_application.UserRouteActivity"
             android:label="@string/title_activity_user_route"
+            android:screenOrientation="portrait"
             android:parentActivityName="com.example.subway_application.RouteActivity"/>
         <activity
             android:name="com.example.subway_application.NearestStationsActivity"
             android:label="@string/title_activity_nearest_station"
+            android:screenOrientation="portrait"
             android:parentActivityName="com.example.subway_application.MainActivity" />
         <activity
             android:name="com.example.subway_application.RouteActivity"
             android:label="@string/title_activity_route_ativity"
             android:windowSoftInputMode="stateVisible|adjustNothing"
+            android:screenOrientation="portrait"
             android:parentActivityName="com.example.subway_application.MainActivity" />
         <activity
             android:name="com.example.subway_application.StationBusesActivity"
             android:label="@string/title_activity_station_buses"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="stateVisible|adjustNothing"
             android:parentActivityName="com.example.subway_application.MainActivity" />
         <activity
             android:name="com.example.subway_application.BusStationsActivity"
             android:label="@string/title_activity_bus_stations"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="stateVisible|adjustNothing"
             android:parentActivityName="com.example.subway_application.MainActivity" />
         <activity
             android:exported="true"
             android:name="com.example.subway_application.MainActivity"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Subway_Application.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
