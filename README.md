@@ -35,3 +35,4 @@ The user can do four things:
 ##### How to go
 <img src="snippets/A6.png" alt="drawing" width="200"/>
 <img src="snippets/A7.png" alt="drawing" width="200"/>
+<img src="snippets/A8.png" alt="drawing" width="200"/>
